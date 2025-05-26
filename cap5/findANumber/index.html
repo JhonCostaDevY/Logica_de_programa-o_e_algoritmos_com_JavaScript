@@ -9,20 +9,25 @@
 <body>
     <div class="main-container">
         <img src="find_the_secret_number.png" alt="">
-        <h1>The Game</h1>
 
-        <p>Number:</p>
-        <input type="text" name="" id="inNumber" placeholder="Type your guess here:">
+        <h1>What number am I thinking of?</h1>
+        <img src="a_robot_thinking.png" alt="" class="robo">
+        
+        <div class="container-input">
+            
+            <input type="number" name="" id="inNumber" placeholder="Type your guess here:" min="0" max="100">
+            
+        </div>
 
         <div class="container-buttons">
-            <input type="button" value="guess" class="buttons">
+            <input type="button" value="Guess" class="buttons">
             <input type="button" value="Try Again" class="buttons">
         </div>
         <div class="result">
             <h3>Erros: <span>0</span></h3>
-            <h3>Tryes: <span>0</span></h3>
+            <h3>Attempts: <span>0</span></h3>
 
-            <h3>Types: <span>0</span></h3>
+            <h3>Hint: <span>0</span></h3>
 
         </div>
     </div>
